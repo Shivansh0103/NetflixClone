@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.StepOne">
+    <include layout="@layout/toolbar_stepone"> </include>
+<LinearLayout
+    android:layout_width="393dp"
+    android:layout_height="589dp"
+    android:layout_marginTop="80dp"
+    android:orientation="vertical"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <include
+        layout="@layout/lock_icon"
+        android:layout_width="199dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="100dp">
+        
+    </include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:id="@+id/step1of3"
+        android:text="Step 1 Of 3"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginLeft="100dp"
+        android:text="Choose Your Plan"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:orientation="horizontal"
+        >
+    <LinearLayout
+        android:layout_width="98dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:src="@drawable/ic_baseline_check_24">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:src="@drawable/ic_baseline_check_24">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:src="@drawable/ic_baseline_check_24">
+
+        </ImageView>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="308dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:text="No commitments,cancel anytime."
+                android:textColor="#494242"
+                android:textSize="20sp">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:text="Everything on Netlix for one low price."
+                android:textColor="#494242"
+                android:textSize="20sp">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:text="No ads and no extra fees.Ever."
+                android:textColor="#494242"
+                android:textSize="20sp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="361dp"
+        android:layout_height="64dp"
+        android:id="@+id/seeyourplans"
+        android:layout_marginLeft="35dp"
+        android:background="@color/red"
+        android:text="See Your Plans"
+        android:textColor="@color/white"
+        android:textSize="20dp">
+
+    </Button>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Netflix</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_to_netflix_sign_up">New to Netflix? Sign Up</string>
+    <string name="netflix1">netflix1</string>
+    <string name="choose_the_plan_that_s_right_for_you">Choose the plan that\'s right for you</string>
+    <string name="downgrade_or_upgrade_anytime">Downgrade or Upgrade anytime</string>
+    <string name="basic">Basic</string>
+    <string name="_349_month">₹ 349/month</string>
+</resources>

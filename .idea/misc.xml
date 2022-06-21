@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable-v24/ic_logo_netflix.xml" value="0.2465" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable-v24/ic_netflix_icon_text.xml" value="0.3085" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/activedots.xml" value="0.2465" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/button_stroke.xml" value="0.2465" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.2465" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/ic_home.xml" value="0.2465" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/ic_more.xml" value="0.2465" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/ic_search.xml" value="0.2465" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/inactivedots.xml" value="0.2465" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/item_selected.xml" value="0.1155" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/linear_layout_stroke.xml" value="0.2465" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/play_button_stroke.xml" value="0.2465" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/resetbutton.xml" value="0.1155" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/drawable/resettextview.xml" value="0.1155" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_choose_your_plan.xml" value="0.25" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_finish_up_account.xml" value="0.22" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_main.xml" value="0.29010416666666666" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_main_screen.xml" value="0.2" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_movie_details.xml" value="0.25" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_movies.xml" value="0.18" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_payment_gateway.xml" value="0.25" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_payment_overdue.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_plan.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_step_one.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_step_three.xml" value="0.18" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_step_two.xml" value="0.33" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_swipe_screen.xml" value="0.18" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_tvseries.xml" value="0.22" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/activity_video_player.xml" value="0.29010416666666666" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/category_row_item.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/custom_layout.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/lock_icon.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/main_recycler_layout.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/main_screen_toolbar.xml" value="0.3072916666666667" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/moviestoolbar.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/payment_toolbar.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/search_recycler_layout.xml" value="0.3072916666666667" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/settingstoolbar.xml" value="0.2" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/sign_in_activity.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/toolbar_step_three.xml" value="0.3072916666666667" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/toolbar_stepone.xml" value="0.1" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/toolbarsignin.xml" value="0.252991452991453" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/layout/tvseriestoolbar.xml" value="0.25213675213675213" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/menu/bottom_navigator.xml" value="0.30833333333333335" />
+        <entry key="..\:/Coding/Android Projects/Netflix/app/src/main/res/menu/search_menu.xml" value="0.30833333333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

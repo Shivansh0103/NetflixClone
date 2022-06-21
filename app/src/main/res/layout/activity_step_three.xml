@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.StepThree">
+    <include layout="@layout/toolbar_step_three">
+        
+    </include>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="702dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="60dp"
+        tools:ignore="MissingConstraints">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="126dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_baseline_lock_24">
+            </ImageView>
+            <ImageView
+                android:layout_width="187dp"
+                android:layout_height="122dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_baseline_radio_button_unchecked_24">
+
+            </ImageView>
+        </RelativeLayout>
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="130dp"
+        android:text="Step 3 of 3"
+        android:id="@+id/step3"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+
+    </TextView>
+        <TextView
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="16dp"
+        android:text="Set Up Your Payment"
+            android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp">
+
+    </TextView>
+        <TextView
+        android:layout_width="240dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="100dp"
+        android:text="Your membership starts as soon as you set up your payment"
+        android:textAlignment="center"
+        android:textColor="#272727"
+        android:textSize="20sp">
+
+    </TextView>
+        <TextView
+            android:layout_width="253dp"
+            android:layout_height="79dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="100dp"
+            android:text="No commitments.
+            Cancel Anytime. "
+            android:gravity="center"
+            android:textColor="#272727"
+            android:textSize="20sp">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/paymentlinearlayout"
+            android:background="@drawable/button_stroke">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Credit Or Debit Card"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="2dp">
+
+            </Space>
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/visacard">
+
+            </ImageView>
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="2dp">
+
+            </Space>
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/mastercard">
+
+            </ImageView>
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="2dp">
+
+            </Space>
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/americanexpress">
+
+            </ImageView>
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="2dp">
+
+            </Space>
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/lastcard">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/ic_baseline_chevron_right_24">
+
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

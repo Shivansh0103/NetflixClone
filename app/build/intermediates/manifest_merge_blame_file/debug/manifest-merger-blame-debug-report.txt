@@ -1,0 +1,444 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.netflix"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+12-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:7:5-9:23
+12-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:7:22-76
+13    </uses-permission>
+14
+15    <queries>
+15-->[com.razorpay:checkout:1.6.21] C:\Users\shiva\.gradle\caches\transforms-3\d08081e2d8421a28ee9db9b510dd5f80\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:11:5-37:15
+16        <intent>
+16-->[com.razorpay:checkout:1.6.21] C:\Users\shiva\.gradle\caches\transforms-3\d08081e2d8421a28ee9db9b510dd5f80\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:12:9-18:18
+17            <action android:name="android.intent.action.VIEW" />
+17-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:17-69
+17-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:25-66
+18
+19            <data
+19-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:99:17-101:47
+20                android:mimeType="*/*"
+21                android:scheme="*" />
+21-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:101:21-44
+22        </intent>
+23        <intent>
+23-->[com.razorpay:checkout:1.6.21] C:\Users\shiva\.gradle\caches\transforms-3\d08081e2d8421a28ee9db9b510dd5f80\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:19:9-28:18
+24            <action android:name="android.intent.action.VIEW" />
+24-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:17-69
+24-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:25-66
+25
+26            <category android:name="android.intent.category.BROWSABLE" />
+26-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:37:17-78
+26-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:37:27-75
+27
+28            <data
+28-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:99:17-101:47
+29                android:host="pay"
+29-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:100:21-42
+30                android:mimeType="*/*"
+31                android:scheme="upi" />
+31-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:101:21-44
+32        </intent>
+33        <intent>
+33-->[com.razorpay:checkout:1.6.21] C:\Users\shiva\.gradle\caches\transforms-3\d08081e2d8421a28ee9db9b510dd5f80\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:29:9-31:18
+34            <action android:name="android.intent.action.MAIN" />
+34-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:73:17-69
+34-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:73:25-66
+35        </intent>
+36        <intent>
+36-->[com.razorpay:checkout:1.6.21] C:\Users\shiva\.gradle\caches\transforms-3\d08081e2d8421a28ee9db9b510dd5f80\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:32:9-36:18
+37            <action android:name="android.intent.action.SEND" />
+37-->[com.razorpay:checkout:1.6.21] C:\Users\shiva\.gradle\caches\transforms-3\d08081e2d8421a28ee9db9b510dd5f80\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:33:13-65
+37-->[com.razorpay:checkout:1.6.21] C:\Users\shiva\.gradle\caches\transforms-3\d08081e2d8421a28ee9db9b510dd5f80\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:33:21-62
+38
+39            <data android:mimeType="*/*" />
+39-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:99:17-101:47
+40        </intent>
+41    </queries>
+42
+43    <uses-feature
+43-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\76235e46ce3392294801d8d2f07817ab\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+44        android:glEsVersion="0x00020000"
+44-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\76235e46ce3392294801d8d2f07817ab\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+45        android:required="true" />
+45-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\76235e46ce3392294801d8d2f07817ab\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+46
+47    <application
+47-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:10:5-104:19
+48        android:allowBackup="true"
+48-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:11:9-35
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.7.0] C:\Users\shiva\.gradle\caches\transforms-3\e84792a16814e572b147be1ee4f0accc\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+50        android:dataExtractionRules="@xml/data_extraction_rules"
+50-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:12:9-65
+51        android:debuggable="true"
+52        android:fullBackupContent="@xml/backup_rules"
+52-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:13:9-54
+53        android:icon="@mipmap/ic_launcher"
+53-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:14:9-43
+54        android:label="@string/app_name"
+54-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:15:9-41
+55        android:roundIcon="@mipmap/ic_launcher_round"
+55-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:16:9-54
+56        android:supportsRtl="true"
+56-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:17:9-35
+57        android:testOnly="true"
+58        android:theme="@style/Theme.Netflix" >
+58-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:18:9-45
+59        <activity
+59-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:20:9-22:40
+60            android:name="com.example.netflix.MainScreens.MovieDetails"
+60-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:21:13-53
+61            android:exported="false" />
+61-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:22:13-37
+62        <activity
+62-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:23:9-25:40
+63            android:name="com.example.netflix.MainScreens.VideoPlayer"
+63-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:24:13-52
+64            android:exported="false" />
+64-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:25:13-37
+65        <activity
+65-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:26:9-29:15
+66            android:name="com.example.netflix.MainScreens.Search"
+66-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:27:13-47
+67            android:exported="false" />
+67-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:28:13-37
+68        <activity
+68-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:30:9-32:40
+69            android:name="com.example.netflix.MainScreens.TVSeries"
+69-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:31:13-49
+70            android:exported="false" />
+70-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:32:13-37
+71        <activity
+71-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:33:9-35:40
+72            android:name="com.example.netflix.MainScreens.Settings"
+72-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:34:13-49
+73            android:exported="false" />
+73-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:35:13-37
+74        <activity
+74-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:36:9-38:40
+75            android:name="com.example.netflix.MainScreens.Movies"
+75-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:37:13-47
+76            android:exported="false" />
+76-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:38:13-37
+77        <activity
+77-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:39:9-41:40
+78            android:name="com.example.netflix.Activities.PaymentOverdue"
+78-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:40:13-54
+79            android:exported="false" />
+79-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:41:13-37
+80        <activity
+80-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:42:9-44:40
+81            android:name="com.example.netflix.Activities.PaymentGateway"
+81-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:43:13-54
+82            android:exported="false" />
+82-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:44:13-37
+83        <activity
+83-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:45:9-47:40
+84            android:name="com.example.netflix.Activities.StepThree"
+84-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:46:13-49
+85            android:exported="false" />
+85-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:47:13-37
+86        <activity
+86-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:48:9-50:40
+87            android:name="com.example.netflix.Activities.StepTwo"
+87-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:49:13-47
+88            android:exported="false" />
+88-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:50:13-37
+89        <activity
+89-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:51:9-53:40
+90            android:name="com.example.netflix.Activities.FinishUpAccount"
+90-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:52:13-55
+91            android:exported="false" />
+91-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:53:13-37
+92        <activity
+92-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:54:9-56:40
+93            android:name="com.example.netflix.Activities.ChooseYourPlan"
+93-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:55:13-54
+94            android:exported="false" />
+94-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:56:13-37
+95        <activity
+95-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:57:9-59:40
+96            android:name="com.example.netflix.Activities.StepOne"
+96-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:58:13-47
+97            android:exported="false" />
+97-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:59:13-37
+98        <activity
+98-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:60:9-62:40
+99            android:name="com.example.netflix.MainScreens.MainScreen"
+99-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:61:13-51
+100            android:exported="false" />
+100-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:62:13-37
+101        <activity
+101-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:63:9-65:40
+102            android:name="com.example.netflix.Activities.SwipeScreen"
+102-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:64:13-51
+103            android:exported="false" />
+103-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:65:13-37
+104        <activity
+104-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:66:9-68:40
+105            android:name="com.example.netflix.Activities.SignInActivity"
+105-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:67:13-54
+106            android:exported="false" />
+106-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:68:13-37
+107        <activity
+107-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:69:9-77:20
+108            android:name="com.example.netflix.Activities.SplashScreen"
+108-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:70:13-52
+109            android:exported="true" >
+109-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:71:13-36
+110            <intent-filter>
+110-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:72:13-76:29
+111                <action android:name="android.intent.action.MAIN" />
+111-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:73:17-69
+111-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:73:25-66
+112
+113                <category android:name="android.intent.category.LAUNCHER" />
+113-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:75:17-77
+113-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:75:27-74
+114            </intent-filter>
+115        </activity>
+116
+117        <meta-data
+117-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:79:9-81:55
+118            android:name="com.razorpay.Apikey"
+118-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:80:13-47
+119            android:value="rzp_test_jej0hZXpNtgWgZ" />
+119-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:81:13-52
+120
+121        <receiver
+121-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:83:9-89:20
+122            android:name="com.razorpay.RzpTokenReceiver"
+122-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:84:13-57
+123            android:exported="false" >
+123-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:85:13-37
+124            <intent-filter>
+124-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:86:13-88:29
+125                <action android:name="rzp.device_token.share" />
+125-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:87:17-65
+125-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:87:25-62
+126            </intent-filter>
+127        </receiver>
+128
+129        <activity
+129-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:91:9-103:20
+130            android:name="com.razorpay.CheckoutActivity"
+130-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:92:13-57
+131            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+131-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:93:13-83
+132            android:exported="true"
+132-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:94:13-36
+133            android:theme="@style/CheckoutTheme" >
+133-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:95:13-49
+134            <intent-filter>
+134-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:96:13-102:29
+135                <action android:name="android.intent.action.MAIN" />
+135-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:73:17-69
+135-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:73:25-66
+136
+137                <data
+137-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:99:17-101:47
+138                    android:host="rzp.io"
+138-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:100:21-42
+139                    android:scheme="io.rzp" />
+139-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:101:21-44
+140            </intent-filter>
+141        </activity>
+142
+143        <service
+143-->[com.google.firebase:firebase-database:20.0.5] C:\Users\shiva\.gradle\caches\transforms-3\c6dcde69a54fe1552b444fe7fbb9de84\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+144            android:name="com.google.firebase.components.ComponentDiscoveryService"
+144-->[com.google.firebase:firebase-database:20.0.5] C:\Users\shiva\.gradle\caches\transforms-3\c6dcde69a54fe1552b444fe7fbb9de84\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+145            android:directBootAware="true"
+145-->[com.google.firebase:firebase-common:20.1.1] C:\Users\shiva\.gradle\caches\transforms-3\cde77c61f7ea800052efbc49d3c4948d\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+146            android:exported="false" >
+146-->[com.google.firebase:firebase-database:20.0.5] C:\Users\shiva\.gradle\caches\transforms-3\c6dcde69a54fe1552b444fe7fbb9de84\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+147            <meta-data
+147-->[com.google.firebase:firebase-database:20.0.5] C:\Users\shiva\.gradle\caches\transforms-3\c6dcde69a54fe1552b444fe7fbb9de84\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+148                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+148-->[com.google.firebase:firebase-database:20.0.5] C:\Users\shiva\.gradle\caches\transforms-3\c6dcde69a54fe1552b444fe7fbb9de84\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-database:20.0.5] C:\Users\shiva\.gradle\caches\transforms-3\c6dcde69a54fe1552b444fe7fbb9de84\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:67:13-69:85
+151                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+151-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:68:17-109
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:69:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-firestore:24.1.2] C:\Users\shiva\.gradle\caches\transforms-3\4d570b1d54ce5aab2c001629c929cce1\transformed\jetified-firebase-firestore-24.1.2\AndroidManifest.xml:20:13-22:85
+154                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+154-->[com.google.firebase:firebase-firestore:24.1.2] C:\Users\shiva\.gradle\caches\transforms-3\4d570b1d54ce5aab2c001629c929cce1\transformed\jetified-firebase-firestore-24.1.2\AndroidManifest.xml:21:17-111
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-firestore:24.1.2] C:\Users\shiva\.gradle\caches\transforms-3\4d570b1d54ce5aab2c001629c929cce1\transformed\jetified-firebase-firestore-24.1.2\AndroidManifest.xml:22:17-82
+156        </service>
+157
+158        <activity
+158-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:27:9-44:20
+159            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+159-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:28:13-80
+160            android:excludeFromRecents="true"
+160-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:29:13-46
+161            android:exported="true"
+161-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:30:13-36
+162            android:launchMode="singleTask"
+162-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:31:13-44
+163            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+163-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:32:13-72
+164            <intent-filter>
+164-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:33:13-43:29
+165                <action android:name="android.intent.action.VIEW" />
+165-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:17-69
+165-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:25-66
+166
+167                <category android:name="android.intent.category.DEFAULT" />
+167-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:36:17-76
+167-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:36:27-73
+168                <category android:name="android.intent.category.BROWSABLE" />
+168-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:37:17-78
+168-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:37:27-75
+169
+170                <data
+170-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:99:17-101:47
+171                    android:host="firebase.auth"
+171-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:100:21-42
+172                    android:path="/"
+173                    android:scheme="genericidp" />
+173-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:101:21-44
+174            </intent-filter>
+175        </activity>
+176        <activity
+176-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:45:9-62:20
+177            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+177-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:46:13-79
+178            android:excludeFromRecents="true"
+178-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:47:13-46
+179            android:exported="true"
+179-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:48:13-36
+180            android:launchMode="singleTask"
+180-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:49:13-44
+181            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+181-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:50:13-72
+182            <intent-filter>
+182-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:51:13-61:29
+183                <action android:name="android.intent.action.VIEW" />
+183-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:17-69
+183-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:25-66
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:36:17-76
+185-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:36:27-73
+186                <category android:name="android.intent.category.BROWSABLE" />
+186-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:37:17-78
+186-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\shiva\.gradle\caches\transforms-3\446af5cf672fe35e4afa58ee52c625db\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:37:27-75
+187
+188                <data
+188-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:99:17-101:47
+189                    android:host="firebase.auth"
+189-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:100:21-42
+190                    android:path="/"
+191                    android:scheme="recaptcha" />
+191-->D:\Coding\Android Projects\Netflix\app\src\main\AndroidManifest.xml:101:21-44
+192            </intent-filter>
+193        </activity>
+194
+195        <meta-data
+195-->[com.razorpay:checkout:1.6.21] C:\Users\shiva\.gradle\caches\transforms-3\d08081e2d8421a28ee9db9b510dd5f80\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:62:9-64:58
+196            android:name="com.razorpay.plugin.googlepay_all"
+196-->[com.razorpay:checkout:1.6.21] C:\Users\shiva\.gradle\caches\transforms-3\d08081e2d8421a28ee9db9b510dd5f80\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:63:13-61
+197            android:value="com.razorpay.RzpGpayMerged" />
+197-->[com.razorpay:checkout:1.6.21] C:\Users\shiva\.gradle\caches\transforms-3\d08081e2d8421a28ee9db9b510dd5f80\transformed\jetified-checkout-1.6.21\AndroidManifest.xml:64:13-55
+198
+199        <activity
+199-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\91806e9fa9767b64d25e25ffdd0dd34a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+200            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+200-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\91806e9fa9767b64d25e25ffdd0dd34a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+201            android:excludeFromRecents="true"
+201-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\91806e9fa9767b64d25e25ffdd0dd34a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+202            android:exported="false"
+202-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\91806e9fa9767b64d25e25ffdd0dd34a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+203-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\91806e9fa9767b64d25e25ffdd0dd34a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+204        <!--
+205            Service handling Google Sign-In user revocation. For apps that do not integrate with
+206            Google Sign-In, this service will never be started.
+207        -->
+208        <service
+208-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\91806e9fa9767b64d25e25ffdd0dd34a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+209            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+209-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\91806e9fa9767b64d25e25ffdd0dd34a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+210            android:exported="true"
+210-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\91806e9fa9767b64d25e25ffdd0dd34a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+211            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+211-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\91806e9fa9767b64d25e25ffdd0dd34a\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+212        <uses-library
+212-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\76235e46ce3392294801d8d2f07817ab\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+213            android:name="org.apache.http.legacy"
+213-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\76235e46ce3392294801d8d2f07817ab\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+214            android:required="false" />
+214-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shiva\.gradle\caches\transforms-3\76235e46ce3392294801d8d2f07817ab\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+215
+216        <activity
+216-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\shiva\.gradle\caches\transforms-3\7d05eb962772f5ba0d740558a58ed36a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+217            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+217-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\shiva\.gradle\caches\transforms-3\7d05eb962772f5ba0d740558a58ed36a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+218            android:exported="false"
+218-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\shiva\.gradle\caches\transforms-3\7d05eb962772f5ba0d740558a58ed36a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+219-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\shiva\.gradle\caches\transforms-3\7d05eb962772f5ba0d740558a58ed36a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+220
+221        <provider
+221-->[com.google.firebase:firebase-common:20.1.1] C:\Users\shiva\.gradle\caches\transforms-3\cde77c61f7ea800052efbc49d3c4948d\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+222            android:name="com.google.firebase.provider.FirebaseInitProvider"
+222-->[com.google.firebase:firebase-common:20.1.1] C:\Users\shiva\.gradle\caches\transforms-3\cde77c61f7ea800052efbc49d3c4948d\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+223            android:authorities="com.example.netflix.firebaseinitprovider"
+223-->[com.google.firebase:firebase-common:20.1.1] C:\Users\shiva\.gradle\caches\transforms-3\cde77c61f7ea800052efbc49d3c4948d\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+224            android:directBootAware="true"
+224-->[com.google.firebase:firebase-common:20.1.1] C:\Users\shiva\.gradle\caches\transforms-3\cde77c61f7ea800052efbc49d3c4948d\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+225            android:exported="false"
+225-->[com.google.firebase:firebase-common:20.1.1] C:\Users\shiva\.gradle\caches\transforms-3\cde77c61f7ea800052efbc49d3c4948d\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+226            android:initOrder="100" />
+226-->[com.google.firebase:firebase-common:20.1.1] C:\Users\shiva\.gradle\caches\transforms-3\cde77c61f7ea800052efbc49d3c4948d\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+227
+228        <meta-data
+228-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\shiva\.gradle\caches\transforms-3\96d97b654145d8909d1cfac98bb1fa11\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+229            android:name="com.google.android.gms.version"
+229-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\shiva\.gradle\caches\transforms-3\96d97b654145d8909d1cfac98bb1fa11\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+230            android:value="@integer/google_play_services_version" />
+230-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\shiva\.gradle\caches\transforms-3\96d97b654145d8909d1cfac98bb1fa11\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+231
+232        <provider
+232-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shiva\.gradle\caches\transforms-3\7f0691138f7df8b541b6ea7a82bc4b8e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+233            android:name="androidx.startup.InitializationProvider"
+233-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shiva\.gradle\caches\transforms-3\7f0691138f7df8b541b6ea7a82bc4b8e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+234            android:authorities="com.example.netflix.androidx-startup"
+234-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shiva\.gradle\caches\transforms-3\7f0691138f7df8b541b6ea7a82bc4b8e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+235            android:exported="false" >
+235-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shiva\.gradle\caches\transforms-3\7f0691138f7df8b541b6ea7a82bc4b8e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+236            <meta-data
+236-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shiva\.gradle\caches\transforms-3\7f0691138f7df8b541b6ea7a82bc4b8e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+237                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+237-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shiva\.gradle\caches\transforms-3\7f0691138f7df8b541b6ea7a82bc4b8e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+238                android:value="androidx.startup" />
+238-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shiva\.gradle\caches\transforms-3\7f0691138f7df8b541b6ea7a82bc4b8e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+239            <meta-data
+239-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shiva\.gradle\caches\transforms-3\8f0d40fd5ebd133b2ddb3fdc7c174b17\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+240                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+240-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shiva\.gradle\caches\transforms-3\8f0d40fd5ebd133b2ddb3fdc7c174b17\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+241                android:value="androidx.startup" />
+241-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shiva\.gradle\caches\transforms-3\8f0d40fd5ebd133b2ddb3fdc7c174b17\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+242        </provider>
+243    </application>
+244
+245</manifest>
