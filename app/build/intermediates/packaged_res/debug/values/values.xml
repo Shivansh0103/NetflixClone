@@ -13,8 +13,12 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="_349_month">₹ 349/month</string>
     <string name="app_name">Netflix</string>
+    <string name="basic">Basic</string>
+    <string name="choose_the_plan_that_s_right_for_you">Choose the plan that\'s right for you</string>
     <string name="default_web_client_id" translatable="false">355262991502-dnb0k27hb2ltemjnqffhn9srvh57pk7c.apps.googleusercontent.com</string>
+    <string name="downgrade_or_upgrade_anytime">Downgrade or Upgrade anytime</string>
     <string name="email">Email</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="gcm_defaultSenderId" translatable="false">355262991502</string>

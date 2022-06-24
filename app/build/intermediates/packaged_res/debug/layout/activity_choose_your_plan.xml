@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
-                android:text="Choose the plan that's right for you"
+                android:text="@string/choose_the_plan_that_s_right_for_you"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold">
@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="70dp"
                 android:layout_marginTop="10dp"
-                android:text="Downgrade or Upgrade anytime"
+                android:text="@string/downgrade_or_upgrade_anytime"
                 android:textColor="@color/black"
                 android:textSize="20sp">
 
@@ -68,7 +68,7 @@
                     <TextView
                         android:layout_width="241dp"
                         android:layout_height="49dp"
-                        android:text="Basic"
+                        android:text="@string/basic"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold">
@@ -81,7 +81,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="33dp"
                     android:layout_marginTop="40dp"
-                    android:text="₹ 349/month"
+                    android:text="@string/_349_month"
                     android:textColor="@color/black">
 
                 </TextView>

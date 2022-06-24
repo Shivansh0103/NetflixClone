@@ -50,6 +50,10 @@ id bottomnavigation
 id buttonsignin
 id buttonstep2
 id change
+id comment
+id commentButton
+id commentUsername
+id commentboxrecycler
 id constraintLayout
 id contactNumberEditText
 id continuebuttonchooseplan
@@ -81,6 +85,7 @@ id itemimage
 id lastnameedittext
 id linearLayout
 id linearLayout2
+id linearLayout3
 id mainrecyclerview
 id movieName
 id moviesrecyclerview
@@ -122,9 +127,12 @@ id step1of3finish
 id step2of3
 id step3
 id step3of3
+id textView
 id toPutUrlText
 id tvrecyclerview
 id tvseriestooltext
+id userComment_CommentBox
+id userNameCommentBox
 id viewpagerswipescreen
 layout activity_choose_your_plan
 layout activity_finish_up_account
@@ -150,6 +158,7 @@ layout main_recycler_layout
 layout main_screen_toolbar
 layout moviestoolbar
 layout payment_toolbar
+layout row_comment
 layout search_recycler_layout
 layout settingstoolbar
 layout toolbar_step_three
@@ -161,8 +170,12 @@ menu search_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+string _349_month
 string app_name
+string basic
+string choose_the_plan_that_s_right_for_you
 string default_web_client_id
+string downgrade_or_upgrade_anytime
 string email
 string forgot_password
 string gcm_defaultSenderId

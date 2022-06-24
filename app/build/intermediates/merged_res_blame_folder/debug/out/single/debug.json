@@ -1,374 +1,382 @@
 [
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_americanexpress.png.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/americanexpress.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_main_recycler_layout.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\main_recycler_layout.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_ic_baseline_check_circle_outline_24.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\ic_baseline_check_circle_outline_24.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_custom_layout.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/custom_layout.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_category_row_item.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/category_row_item.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\ic_baseline_lock_24.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-hdpi_ic_home.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-hdpi/ic_home.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-xxxhdpi_ic_home.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-xxxhdpi\\ic_home.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_lock_icon.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/lock_icon.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_ic_baseline_play_arrow_24.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\ic_baseline_play_arrow_24.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_tvseries.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_tvseries.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_inactivedots.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\inactivedots.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_toolbar_stepone.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/toolbar_stepone.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-mdpi_ic_home.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-mdpi/ic_home.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_custom_layout.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\custom_layout.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-hdpi_ic_search.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-hdpi/ic_search.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_premiumplanimage.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\premiumplanimage.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-v24_imagetwo.jpg.flat",
-        "source": "com.example.netflix.app-main-39:/drawable-v24/imagetwo.jpg"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_toolbarsignin.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/toolbarsignin.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-hdpi_ic_search.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-hdpi\\ic_search.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_linear_layout_stroke.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/linear_layout_stroke.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_row_comment.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\row_comment.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-ldpi_ic_search.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-ldpi/ic_search.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_search.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_payment_toolbar.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/payment_toolbar.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-v24_imageone.jpg.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable-v24\\imageone.jpg"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-anydpi-v24_ic_search.xml.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-anydpi-v24/ic_search.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_payment_overdue.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_payment_overdue.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_resetbutton.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/resetbutton.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_payment_gateway.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_payment_gateway.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_step_one.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_step_one.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_settingstoolbar.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\settingstoolbar.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_settings.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_settings.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_mastercard.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\mastercard.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_button_stroke.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/button_stroke.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-xhdpi_ic_home.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-xhdpi\\ic_home.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_payment_overdue.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_payment_overdue.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_standardplanimage.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\standardplanimage.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_lastcard.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\lastcard.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_ic_baseline_radio_button_unchecked_24.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/ic_baseline_radio_button_unchecked_24.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-xxhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-xxhdpi\\ic_search.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_toolbar_step_three.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/toolbar_step_three.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\menu_search_menu.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\menu\\search_menu.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_visacard.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\visacard.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_activedots.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/activedots.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_americanexpress.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\americanexpress.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_visacard.png.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/visacard.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_tvseriestoolbar.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\tvseriestoolbar.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-xxxhdpi_ic_search.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-xxxhdpi/ic_search.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\menu_bottom_navigator.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\menu\\bottom_navigator.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_video_player.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_video_player.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_search_recycler_layout.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\search_recycler_layout.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_payment_gateway.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_payment_gateway.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_ic_baseline_play_arrow_24.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/ic_baseline_play_arrow_24.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_moviestoolbar.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\moviestoolbar.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_ic_more.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/ic_more.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_search.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_search.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_activedots.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\activedots.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_main_screen.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_main_screen.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_toolbar_stepone.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\toolbar_stepone.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_item_selected.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/item_selected.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_button_stroke.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\button_stroke.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_step_two.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_step_two.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_play_button_stroke.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\play_button_stroke.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_step_three.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_step_three.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_resetbutton.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\resetbutton.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_inactivedots.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/inactivedots.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_ic_baseline_chevron_right_24.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/ic_baseline_chevron_right_24.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-v24_imagetwo.jpg.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable-v24\\imagetwo.jpg"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_movies.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_movies.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_netflix1.jpg.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/netflix1.jpg"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-mdpi_ic_home.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-mdpi\\ic_home.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_ic_baseline_radio_button_unchecked_24.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\ic_baseline_radio_button_unchecked_24.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_choose_your_plan.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_choose_your_plan.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-xxxhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-xxxhdpi\\ic_search.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-xxhdpi_ic_home.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-xxhdpi/ic_home.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_toolbar_step_three.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\toolbar_step_three.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-xxhdpi_ic_search.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-xxhdpi/ic_search.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_ic_baseline_check_24.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/ic_baseline_check_24.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_basicplanimage.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\basicplanimage.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-v24_ic_logo_netflix.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable-v24/ic_logo_netflix.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-xhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-xhdpi\\ic_search.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_basicplanimage.png.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/basicplanimage.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_movies.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_movies.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_lock_icon.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\lock_icon.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_premiumplanimage.png.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/premiumplanimage.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-v24_imagethree.jpg.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable-v24\\imagethree.jpg"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_video_player.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_video_player.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_swipe_screen.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_swipe_screen.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-xxhdpi_ic_home.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-xxhdpi\\ic_home.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-v24_ic_netflix_icon_text.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable-v24\\ic_netflix_icon_text.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-v24_imageone.jpg.flat",
-        "source": "com.example.netflix.app-main-39:/drawable-v24/imageone.jpg"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-mdpi_ic_search.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-mdpi\\ic_search.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_main_recycler_layout.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/main_recycler_layout.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_step_one.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_step_one.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_finish_up_account.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_finish_up_account.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-ldpi_ic_home.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-ldpi\\ic_home.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-v24_ic_netflix_icon_text.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable-v24/ic_netflix_icon_text.xml"
+        "merged": "com.example.netflix.app-merged_res-37:/layout_row_comment.xml.flat",
+        "source": "com.example.netflix.app-main-39:/layout/row_comment.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_main_screen_toolbar.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/main_screen_toolbar.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_netflix1.jpg.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\netflix1.jpg"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_moviestoolbar.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/moviestoolbar.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_swipe_screen.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_swipe_screen.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_mastercard.png.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/mastercard.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_finish_up_account.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_finish_up_account.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/menu_bottom_navigator.xml.flat",
-        "source": "com.example.netflix.app-main-39:/menu/bottom_navigator.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_ic_baseline_chevron_right_24.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\ic_baseline_chevron_right_24.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.netflix.app-main-39:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_resettextview.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/resettextview.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-anydpi-v24_ic_home.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-anydpi-v24\\ic_home.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_tvseriestoolbar.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/tvseriestoolbar.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_main_screen.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_main_screen.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-xxxhdpi_ic_home.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-xxxhdpi/ic_home.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_step_three.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_step_three.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_sign_in.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_sign_in.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_main_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\main_screen_toolbar.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_movie_details.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_movie_details.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_ic_more.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\ic_more.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_search_recycler_layout.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/search_recycler_layout.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-v24_ic_logo_netflix.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable-v24\\ic_logo_netflix.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_play_button_stroke.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/play_button_stroke.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_category_row_item.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\category_row_item.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_splash_screen.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/activity_splash_screen.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-xhdpi_ic_search.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-xhdpi/ic_search.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/menu_search_menu.xml.flat",
-        "source": "com.example.netflix.app-main-39:/menu/search_menu.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_choose_your_plan.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_choose_your_plan.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_settingstoolbar.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/settingstoolbar.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_resettextview.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\resettextview.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_ic_baseline_lock_24.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/ic_baseline_lock_24.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-ldpi_ic_search.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-ldpi\\ic_search.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-xhdpi_ic_home.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-xhdpi/ic_home.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_ic_baseline_check_circle_outline_24.xml.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/ic_baseline_check_circle_outline_24.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_movie_details.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_movie_details.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-v24_imagethree.jpg.flat",
-        "source": "com.example.netflix.app-main-39:/drawable-v24/imagethree.jpg"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_lastcard.png.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/lastcard.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_item_selected.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\item_selected.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-mdpi_ic_search.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-mdpi/ic_search.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_toolbarsignin.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\toolbarsignin.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_linear_layout_stroke.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\linear_layout_stroke.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/xml_backup_rules.xml.flat",
-        "source": "com.example.netflix.app-main-39:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable_standardplanimage.png.flat",
-        "source": "com.example.netflix.app-main-39:/drawable/standardplanimage.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-ldpi_ic_home.png.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-ldpi/ic_home.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_ic_baseline_check_24.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\ic_baseline_check_24.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_step_two.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_step_two.xml"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/drawable-anydpi-v24_ic_home.xml.flat",
-        "source": "com.example.netflix.app-pngs-32:/drawable-anydpi-v24/ic_home.xml"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-hdpi_ic_home.png.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-hdpi\\ic_home.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.netflix.app-main-39:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_payment_toolbar.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\payment_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_activity_tvseries.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\layout\\activity_tvseries.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-anydpi-v24_ic_search.xml.flat",
+        "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-anydpi-v24\\ic_search.xml"
     }
 ]
