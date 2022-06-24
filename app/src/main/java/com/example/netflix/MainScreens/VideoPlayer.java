@@ -1,8 +1,14 @@
 package com.example.netflix.MainScreens;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.DialogInterface;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -27,9 +33,28 @@ public class VideoPlayer extends AppCompatActivity {
         setContentView(R.layout.activity_video_player);
         getSupportActionBar().hide();
         playerView=findViewById(R.id.exoplayer);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
-        setUpExoPlayer(getIntent().getStringExtra("FileURL"));
+        ConnectivityManager connManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo mWifi = connManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+
+        if (mWifi.isConnected()) {
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
+            setUpExoPlayer(getIntent().getStringExtra("FileURL"));
+        }
+        else {
+            AlertDialog.Builder builder=new AlertDialog.Builder(this);
+            builder.setTitle("NO WIFI");
+            builder.setMessage("Please turn on WIFI to continue.");
+            builder.setPositiveButton("Retry", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    recreate();
+                }
+            });
+            AlertDialog alertDialog=builder.create();
+            alertDialog.show();
+            alertDialog.setCanceledOnTouchOutside(false);
+        }
     }
 
     private void setUpExoPlayer(String fileURL) {
