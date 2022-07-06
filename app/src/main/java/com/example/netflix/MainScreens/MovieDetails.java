@@ -31,6 +31,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
@@ -53,11 +54,13 @@ public class MovieDetails extends AppCompatActivity {
     DocumentReference userReference;
     FirebaseFirestore firebaseFirestore;
     Button play,add;
-    String userID,name,image,fileUrl,movieId,userName,userComment,mName;
+    String userID,name,image,fileUrl,movieId,userName,mName;
     RecyclerView commentBox;
     CommentAdapter commentAdapter;
     Map<String,Object> m;
     List<Comment> commentList;
+    ArrayList<String> listofComments = new ArrayList<>();
+    ArrayList<String> list=new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -103,7 +106,8 @@ public class MovieDetails extends AppCompatActivity {
             public void onClick(View view) {
                 Map<String, Object> user=new HashMap<String,Object>();
                 String commentContent=commentboxedittext.getText().toString();
-                user.put(name,commentContent);
+                list.add(commentContent);
+                userReference.update(name, FieldValue.arrayUnion(commentContent));
                 userReference.set(user, SetOptions.merge()).addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void unused) {
@@ -141,13 +145,17 @@ public class MovieDetails extends AppCompatActivity {
             userReference.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
                 @Override
                 public void onSuccess(DocumentSnapshot documentSnapshot) {
-                    userComment=documentSnapshot.getString(name);
+                    if(documentSnapshot.contains(name)) {
+                        listofComments=(ArrayList<String>) documentSnapshot.get(name);
+                    }
                     if(documentSnapshot.contains(name))
-                    userName=documentSnapshot.getString("First Name")+" "+documentSnapshot.getString("Last Name");
+                        userName = documentSnapshot.getString("First Name") + " " + documentSnapshot.getString("Last Name");
                     else
                         userName="";
-                    Comment comment=new Comment(userComment,userID,userName);
-                    commentList.add(comment);
+                    for(String userComment:listofComments) {
+                        Comment comment = new Comment(userComment, userID, userName);
+                        commentList.add(comment);
+                    }
                     commentAdapter=new CommentAdapter(getApplicationContext(),commentList);
                     commentBox.setAdapter(commentAdapter);
                 }
