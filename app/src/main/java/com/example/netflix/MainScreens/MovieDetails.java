@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -51,16 +52,17 @@ public class MovieDetails extends AppCompatActivity {
     EditText commentboxedittext;
     TextView movieName,usernametextview;
     FirebaseAuth firebaseAuth;
-    DocumentReference userReference;
+    DocumentReference userReference,commentRef;
     FirebaseFirestore firebaseFirestore;
     Button play,add;
     String userID,name,image,fileUrl,movieId,userName,mName;
     RecyclerView commentBox;
     CommentAdapter commentAdapter;
-    Map<String,Object> m;
-    List<Comment> commentList;
+    List<Comment> commentList=new ArrayList<>();
     ArrayList<String> listofComments = new ArrayList<>();
+    Map<String,Object> allIdComments=new HashMap<>();
     ArrayList<String> list=new ArrayList<>();
+    ArrayList<String> l=new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,6 +83,7 @@ public class MovieDetails extends AppCompatActivity {
         name=getIntent().getStringExtra("MovieName");
         image=getIntent().getStringExtra("MovieImageURL");
         fileUrl=getIntent().getStringExtra("MovieFile");
+        commentRef=firebaseFirestore.collection("Comments").document(name);
         Glide.with(this).load(image).into(movieImage);
         movieName.setText(name);
         if(firebaseAuth.getCurrentUser()!=null)
@@ -107,8 +110,8 @@ public class MovieDetails extends AppCompatActivity {
                 Map<String, Object> user=new HashMap<String,Object>();
                 String commentContent=commentboxedittext.getText().toString();
                 list.add(commentContent);
-                userReference.update(name, FieldValue.arrayUnion(commentContent));
-                userReference.set(user, SetOptions.merge()).addOnSuccessListener(new OnSuccessListener<Void>() {
+                commentRef.update(userName, FieldValue.arrayUnion(commentContent));
+                commentRef.set(user, SetOptions.merge()).addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void unused) {
                         iniRvComment();
@@ -136,26 +139,36 @@ public class MovieDetails extends AppCompatActivity {
             }
         });
     }
-
     private void iniRvComment() {
         commentBox.setLayoutManager(new LinearLayoutManager(this));
-        commentList=new ArrayList<>();
         if(firebaseAuth.getCurrentUser()!=null)
         {
-            userReference.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+            commentRef.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
                 @Override
                 public void onSuccess(DocumentSnapshot documentSnapshot) {
-                    if(documentSnapshot.contains(name)) {
-                        listofComments=(ArrayList<String>) documentSnapshot.get(name);
-                    }
-                    if(documentSnapshot.contains(name))
+                    /*if(documentSnapshot.contains(userName))
                         userName = documentSnapshot.getString("First Name") + " " + documentSnapshot.getString("Last Name");
                     else
-                        userName="";
-                    for(String userComment:listofComments) {
-                        Comment comment = new Comment(userComment, userID, userName);
-                        commentList.add(comment);
+                        userName="";*/
+                    allIdComments=(HashMap<String,Object>)documentSnapshot.getData();
+                    if (documentSnapshot.exists())
+                        Log.d("Comments for Dark", "DocumentSnapshot data: " + allIdComments);
+                    for(Map.Entry<String,Object> entry:allIdComments.entrySet())
+                    {
+                        String un=entry.getKey();
+                        l=(ArrayList<String>) entry.getValue();
+                        for(String userComment:l)
+                        {
+                            Comment comment = new Comment(userComment, userID, un);
+                            commentList.add(comment);
+                        }
                     }
+                    /*if(documentSnapshot.contains(userName)) {
+                        listofComments=(ArrayList<String>) documentSnapshot.get(userName);
+                    }
+                    for(String userComment:listofComments) {*/
+
+                    //}
                     commentAdapter=new CommentAdapter(getApplicationContext(),commentList);
                     commentBox.setAdapter(commentAdapter);
                 }

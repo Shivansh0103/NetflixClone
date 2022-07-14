@@ -248,10 +248,6 @@
         "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-pngs-32:\\drawable-ldpi\\ic_home.png"
     },
     {
-        "merged": "com.example.netflix.app-merged_res-37:/layout_row_comment.xml.flat",
-        "source": "com.example.netflix.app-main-39:/layout/row_comment.xml"
-    },
-    {
         "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable_netflix1.jpg.flat",
         "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable\\netflix1.jpg"
     },
@@ -298,6 +294,10 @@
     {
         "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\drawable-v24_ic_logo_netflix.xml.flat",
         "source": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-main-39:\\drawable-v24\\ic_logo_netflix.xml"
+    },
+    {
+        "merged": "com.example.netflix.app-merged_res-37:/layout_activity_movie_details.xml.flat",
+        "source": "com.example.netflix.app-main-39:/layout/activity_movie_details.xml"
     },
     {
         "merged": "C:\\Users\\shiva\\.gradle\\daemon\\7.3.3\\com.example.netflix.app-merged_res-37:\\layout_category_row_item.xml.flat",
